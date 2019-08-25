@@ -1,9 +1,9 @@
 katz_deli = []
 
 def line(katz_deli)
-  phrase = "The line is currently: katz_deli.each_with_index { |index, name| p "#{index}:#{item}" }"
+  phrase = "The line is currently: katz_deli.each_with_index { |index, name| current_line << " #{i}. #{person}"
   if katz_deli.length > 0 
-    return phrase
+    return phrase += 
   else
     "The line is currently empty."
   end
