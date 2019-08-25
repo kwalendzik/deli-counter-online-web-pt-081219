@@ -1,7 +1,8 @@
 katz_deli = []
 
 def line(katz_deli)
-  phrase = "The line is currently: ."
+  phrase = "The line is currently: #{counter}. #{name}"
+  counter = katz_deli.length
   if katz_deli > 0 
     return phrase
   else
