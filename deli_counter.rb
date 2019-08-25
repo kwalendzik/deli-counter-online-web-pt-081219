@@ -1,9 +1,8 @@
 katz_deli = []
 
 def line(katz_deli)
-  phrase = "The line is currently: #{counter}. #{name}"
-  counter = katz_deli.length
-  if katz_deli > 0 
+  phrase = "The line is currently: #{index + 1}. #{name}"
+  if katz_deli.length > 0 
     return phrase
   else
     "The line is currently empty."
