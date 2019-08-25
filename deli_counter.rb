@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  phrase = "The line is currently: colors.each_with_index { |item, index| p "#{index}:#{item}" }"
+  phrase = "The line is currently: katz_deli.each_with_index { |index, name| p "#{index}:#{item}" }"
   if katz_deli.length > 0 
     return phrase
   else
