@@ -13,13 +13,16 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  if katz_deli.length > 0 
+    katz_deli.each_with_index do |index, name|
   puts "Welcome, #{name}. You are number #{index + 1} in line."
 end
 
-def now_serving(name)
-  if #ppl in line
-    puts #next person in line and then remove them from front
-  else
+def now_serving(katz_deli)
+  if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
+  else 
+	 puts "Currently serving " + katz_deli[0] +"."
+   katz_deli.shift
   end
 end
